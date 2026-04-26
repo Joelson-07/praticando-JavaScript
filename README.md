@@ -1,0 +1,2 @@
+# praticando-JavaScript
+utilizando condicional
