@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Praticando js</title>
+    <link rel='stylesheet' href='main.js'>
+</head>
+<body>
+<script>
+let peso=parseFloat(prompt("digite seu peso : "));
+let altura=parseFloat(prompt("digite sua altura: "));
+let imc=peso/(altura*altura);
+if (imc < 18){
+    alert("abaixo do peso");
+}else if (imc<25){
+    alert("peso normal");
+}else if(imc<30){
+   alert("sobrepeso");
+}else{
+    alert("obesidade");
+}
+
+
+
+
+
+</script>  
+</body>
+</html>
